@@ -2,7 +2,7 @@ from selenium import webdriver
 import random,time,re,names,time
 
 def Prox():
-	link = input("Adfly Link : ")
+	link = input("http://fumacrom.com/3NUcn : ")
         driver = webdriver.Firefox()
 	driver.get(link)
 	time.sleep(5)
